@@ -1,0 +1,118 @@
+@import "./global.css";
+
+html, body {
+    width: 483px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile, .second, .찜 {
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.my-profile, .new-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile img, p {
+    margin-bottom: 10px;
+}
+.my-profile {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.profile span {
+    font-size: 8rem;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+h2 {
+
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+.movie-box {
+    margin-right: 20px;
+    border-radius: 12px;
+    background-color:  rgba(89, 67, 116, 0.3);
+}
+.이어보기 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    width: 450px;
+}
+.이어보기 img {
+    width: 15rem;
+    border-radius: 12px;
+    margin: 2px;
+}
+.이어보기 p {
+    padding-left: 10px;
+}
+.이어보기::-webkit-scrollbar {
+    width: 10px; 
+    height: 8px;
+}
+.이어보기::-webkit-scrollbar-thumb {
+    background: gray; /* 스크롤바 색상 */
+    border-radius: 10px; /* 스크롤바 둥근 테두리 */
+}
+.이어보기::-webkit-scrollbar-track {
+    background: rgba(220, 20, 60, .1);  /*스크롤바 뒷 배경 색상*/
+}
+
+.찜-box {
+    width: 450px;
+    margin-bottom: 20px;
+    background-color: rgba(89, 67, 116, 0.6);
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 17px;
+    position: relative;
+}
+.찜 img {
+    width: 5rem;
+    border-radius: 17px;
+}
+.설명 {
+    padding-left: 15px;
+}
+.설명 h3 {
+    font-size: 1.1rem;
+}
+.설명 p {
+    font-size: 0.8rem;
+}
+
+.play{
+    position: absolute;
+    right: 20px;
+}
+.material-symbols-outlined {
+    font-size: 47px;
+}
+
+.content{
+    position: relative;
+}
+.navigation {
+    position: absolute;
+    position: fixed;
+}

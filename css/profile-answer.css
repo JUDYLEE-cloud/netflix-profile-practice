@@ -1,0 +1,96 @@
+@import "./global.css";
+
+.html, body {
+    height: 100%;
+}
+
+.user-component {
+    padding: 20px 10px;
+    flex-direction: column;
+}
+.이주현-profile {
+    width: 5rem;
+    border-radius: 50%;
+}
+.id {
+    padding-top: 0.3rem;
+}
+.add-profile-btn {
+    background-color: gray;
+    width: 5rem;
+    height: 5rem;
+    font-size: 4rem;
+    border-radius: 50%;
+}
+
+.이어보기 img {
+    width: 200px;
+    border-radius: 15px;
+}
+.이어보기 {
+    margin-bottom: 25px;
+    padding: 0 20px; padding-bottom: 10px; /* 위 양옆, 아래 */
+}
+.이어보기-리스트 {
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+}
+.이어보기-박스 {
+    background-color: var(--darkpurple);
+    padding: 5px;
+    border-radius: 15px;
+}
+.이어보기-제목 {
+    margin-left: 15px;
+}
+.이어보기 li {
+    margin-left: 10px;
+}
+.이어보기-영상제목 {
+    display: block; /* 일직선에 서지 말고 엔터 효과 */
+    margin: 2px 0; /* 위아래 2px, 양옆 0 */
+}
+
+.찜한목록 {
+    padding 0 20px 10px 20px;
+}
+.찜한목록-제목 {
+    border-top: 1px solid var(--border);
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.찜한목록-박스 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--darkpurple);
+}
+.찜한목록-썸네일제목 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+.찜한목록-썸네일 {
+    width: 8rem;
+    border-radius: 20px;
+}
+.찜한목록-정보 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+}
+    .찜한목록-영상제목 {
+        font-size: 1.1rem;
+    }
+    .찜한목록-영상부제목 {
+        font-size: 0.9rem;
+    }
+.찜한목록-재생버튼 span {
+    background-color:var(--purple);
+    border-radius: 50%;
+    opacity: 0.9;
+    font-size: 3rem;
+}
